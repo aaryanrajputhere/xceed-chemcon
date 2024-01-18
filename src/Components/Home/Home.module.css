@@ -79,19 +79,19 @@ h2 {
 }
 
 .infoContainer {
-  border: 5px solid red;
+  /* border: 5px solid red; */
   display: flex;
   flex-direction: row;
   margin: 20px;
 }
 .info {
-  border: 5px solid green;
+  /* border: 5px solid green; */
   padding: 20px;
 }
 .newsContainer {
   display: flex;
   flex-direction: column;
-  border: 5px solid blue;
+  /* border: 5px solid blue; */
 
   padding: 20px;
 }
