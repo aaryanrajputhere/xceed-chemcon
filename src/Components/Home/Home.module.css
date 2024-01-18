@@ -220,16 +220,3 @@ h1 {
     background-color: #22d3ee;
   }
 }
-
-@media only screen and (max-width: 450px) {
-  .hero {
-    flex-direction: column;
-  }
-  .heroTextContainer {
-    width: 100%;
-  }
-  .heroImgsContainer {
-    width: 100%;
-    padding-top: 20px;
-  }
-}
