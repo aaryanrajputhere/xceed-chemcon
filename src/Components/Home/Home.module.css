@@ -7,21 +7,21 @@ html {
 }
 
 .container {
-  border: 10px solid black;
+  /* border: 10px solid black; */
   display: flex;
   flex-direction: column;
 }
 
 .hero {
   margin: 20px;
-  border: 5px solid red;
+  /* border: 5px solid red; */
   height: fit-content;
   display: flex;
 
   flex-direction: row;
 }
 .heroTextContainer {
-  border: 5px solid green;
+  /* border: 5px solid green; */
   height: 100%;
   width: 150%;
   display: flex;
