@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  border: 10px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  margin: 20px;
+  border: 5px solid red;
+  height: fit-content;
+  display: flex;
+
+  flex-direction: row;
+}
+.heroTextContainer {
+  border: 5px solid green;
+  height: 100%;
+  width: 150%;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  text-decoration: none !important;
+}
+h2 {
+  --tw-text-opacity: 1;
+  color: hsl(19 84% 61% / var(--tw-text-opacity));
+}
+
+.dateOfEvent {
+  padding: 10px;
+  --tw-text-opacity: 1;
+  color: hsl(19 84% 61% / var(--tw-text-opacity));
+}
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.logo {
+  background-color: white;
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+}
+.institutionName {
+  padding: 10px;
+
+  width: 140px;
+}
+
+.registerButton {
+  padding: 5px;
+  background-color: rgba(255, 89, 0, 0.9) !important;
+  color: white;
+  text-decoration: none;
+  font-family: "Monsterrat", sans-serif;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 7px;
+}
+.registerButton:hover {
+  background-color: rgb(255, 89, 0) !important;
+}
+
+.infoContainer {
+  border: 5px solid red;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+.info {
+  border: 5px solid green;
+  padding: 20px;
+}
+.newsContainer {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid blue;
+
+  padding: 20px;
+}
+h3 {
+  color: black;
+  margin: 5px;
+  padding: 0;
+}
+
+.news1Container,
+.news2Container {
+  margin: 20px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+.news {
+  padding: 5 20 20 5;
+  background-color: bisque;
+  border-radius: 10px;
+}
+h1 {
+  padding-left: 5px;
+}
+
+.heroImgsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+
+  width: 200%;
+}
+.heroImg1,
+.heroImg2,
+.heroImg3,
+.heroImg4 {
+  width: 45%;
+  height: 45%;
+  object-fit: cover;
+}
+
+.heroCoverContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.heroCover1,
+.heroCover2,
+.heroCover3,
+.heroCover4 {
+  width: 45%;
+  height: 45%;
+
+  mix-blend-mode: color;
+
+  --tw-bg-opacity: 1;
+  background-color: hsl(17 83% 54% / var(--tw-bg-opacity));
+}
+
+.heroCover1 {
+  animation: colorChange1 2s infinite;
+}
+@keyframes colorChange1 {
+  0% {
+    --tw-bg-opacity: 1;
+    background-color: hsl(17 83% 54% / var(--tw-bg-opacity));
+  }
+  50% {
+    background-color: #facc15;
+  }
+  100% {
+    background-color: #22d3ee;
+  }
+}
+
+.heroCover2 {
+  animation: colorChange2 2s infinite;
+}
+@keyframes colorChange2 {
+  0% {
+    background-color: #facc15;
+  }
+  50% {
+    background-color: #22d3ee;
+  }
+  100% {
+    --tw-bg-opacity: 1;
+    background-color: hsl(17 83% 54% / var(--tw-bg-opacity));
+  }
+}
+
+.heroCover3 {
+  animation: colorChange3 2s infinite;
+}
+@keyframes colorChange3 {
+  0% {
+    background-color: #22d3ee;
+  }
+  50% {
+    --tw-bg-opacity: 1;
+    background-color: hsl(17 83% 54% / var(--tw-bg-opacity));
+  }
+  100% {
+    background-color: #facc15;
+  }
+}
+
+.heroCover4 {
+  animation: colorChange4 2s infinite;
+}
+@keyframes colorChange4 {
+  0% {
+    --tw-bg-opacity: 1;
+    background-color: hsl(17 83% 54% / var(--tw-bg-opacity));
+  }
+  50% {
+    background-color: #facc15;
+  }
+  100% {
+    background-color: #22d3ee;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .hero {
+    flex-direction: column;
+  }
+  .heroTextContainer {
+    width: 100%;
+  }
+  .heroImgsContainer {
+    width: 100%;
+    padding-top: 20px;
+  }
+}

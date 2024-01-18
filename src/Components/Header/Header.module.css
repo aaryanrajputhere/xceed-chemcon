@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  margin-top: 0px;
+}
+.headerContainer {
+  height: 39px;
+  background-color: rgb(255, 89, 0);
+  padding: 0 0 0 0;
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  justify-content: space-between;
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+}
+
+h3 {
+  color: white;
+}
+.contact {
+  padding-top: 9px;
+  padding-left: 10px;
+}
+.pages {
+  padding-top: 6px;
+  padding-right: 10px;
+}
+
+a {
+  padding: 5px;
+  background-color: rgb(255, 89, 0) !important;
+  color: white;
+  text-decoration: none;
+  font-family: "Monsterrat", sans-serif;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 10px;
+}
+a.apages {
+  text-transform: uppercase;
+}
+
+a.apages:hover {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.icon {
+  color: white;
+  padding-top: 4px;
+  margin: 0px;
+  width: 12px !important;
+  height: 12px !important;
+}
+
+@media only screen and (max-width: 870px) {
+  .pages {
+    display: none;
+  }
+}

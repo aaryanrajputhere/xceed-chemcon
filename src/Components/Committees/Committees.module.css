@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  color: #eb6028;
+  text-decoration: underline;
+  font-family: "Monsterrat", sans-serif;
+}
+p {
+  font-family: "Monsterrat", sans-serif;
+  color: black;
+}
+.committeeMember {
+  padding-left: 50px;
+  padding-bottom: 10px;
+}
