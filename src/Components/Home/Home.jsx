@@ -148,6 +148,48 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div>
+        <div className={HomeStyle.imgGallery}>
+          <h1>Image Gallery</h1>
+          <div className={HomeStyle.sliderWrapper}>
+            <div className={HomeStyle.slider}>
+              <img
+                id="slide-1"
+                src="./img/side-1.webp"
+                alt="slide 1"
+                className={HomeStyle.img}
+              />
+
+              <img
+                id="slide-2"
+                src="./img/side-2.webp"
+                alt="slide 2"
+                className={HomeStyle.img}
+              />
+
+              <img
+                id="slide-3"
+                src="./img/side-3.webp"
+                alt="slide 3"
+                className={HomeStyle.img}
+              />
+
+              <img
+                id="slide-4"
+                src="./img/main.webp"
+                alt="slide 4"
+                className={HomeStyle.img}
+              />
+            </div>
+            <div className={HomeStyle.sliderNav}>
+              <a href="#slide-1"></a>
+              <a href="#slide-2"></a>
+              <a href="#slide-3"></a>
+              <a href="#slide-4"></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
