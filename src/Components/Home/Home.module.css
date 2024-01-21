@@ -482,6 +482,11 @@ th {
     width: 70%;
     margin: 10px;
   }
+  .timelineContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media (max-width: 800px) {
