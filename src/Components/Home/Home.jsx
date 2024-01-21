@@ -221,6 +221,79 @@ export default function Home() {
           </p>
         </div>
       </div>
+      <div className={HomeStyle.ourEvents}>
+        <div className={HomeStyle.event1}>
+          <h3>Technical Sessions</h3>
+          <p>
+            Technical Sessions will focus on the theme of the Congress and the
+            following broad themes will be covered with interaction through
+            Plenary Sessions, Invited Lectures, Paper Presentations and Poster
+            Sessions. There will be three best paper awards each in Oral and
+            Poster presentations in each session. Award will be given to the top
+            two papers presented in each session in both Oral and Poster
+            presentations. The following topics but not limited to are to be
+            covered:
+          </p>
+          <p>Chemical Process Safety Management</p>
+          <p>Novel Separation Techniques</p>
+          <p>Sustainable Development</p>
+          <p>Energy and Environmental Policy Issues</p>
+          <p>Nanotechnology</p>
+          <p>Chemical and Fertilizer Technology</p>
+          <p>Chemical Engineering in the New Century</p>
+          <p>Membrane Separation Processes</p>
+          <p>Biochemical and Bioprocessing</p>
+          <p>Process Intensification</p>
+          <p>Waste Water Treatment</p>
+          <p>Green Technology</p>
+          <p>New and Renewable Energy</p>
+          <p>Hydrocarbon and other fossil fuels</p>
+          <p>Modelling, Simulation and Scale-up</p>
+          <p>Process Development</p>
+          <p>Nuclear and Thermal Power</p>
+          <p>Agrochemical Technology</p>
+          <p>Mining and Mineral</p>
+          <p>Industrial Biotechnology</p>
+          <p>Process Systems Engineering</p>
+          <p>Solid Waste Management</p>
+        </div>
+        <div className={HomeStyle.eventSquare}>
+          <div className={HomeStyle.event2}>
+            <h3>Sri Dhirubhai Ambani Commemoration Day</h3>
+            <p>
+              Shri Dhirubhai Ambani Commemoration day will be celebrated on
+              December 28, 2024 as a tribute to the great visionary.
+            </p>
+          </div>
+          <div className={HomeStyle.event3}>
+            <h3>International Symposium</h3>
+            <p>
+              International Joint Symposiums related to the theme will be held
+              as part of CHEMCON 2024.
+            </p>
+          </div>
+          <div className={HomeStyle.event4}>
+            <h3>Exhibition</h3>
+            <p>
+              An exhibition of Chemical Engineering and allied businesses
+              including safety, technology providers, consultants, institution,
+              tour packages and communication, Equipment, Instruments, Books and
+              Journals, etc. is proposed during CHEMCON 2024. Interested
+              organizations will be allotted space of the following dimensions
+              in the form of exhibition stalls with all facilities like
+              furniture, power, etc.
+            </p>
+          </div>
+          <div className={HomeStyle.event5}>
+            <h3>Quiz Competition</h3>
+            <p>
+              Quiz Competition will be conducted for the student delegates based
+              on GATE 2024 syllabus. The prizes will be distributed to the
+              winners
+            </p>
+          </div>
+        </div>
+      </div>
       <div className={HomeStyle.about1}>
         <div className={HomeStyle.aboutNitj}>
           <h1>About NITJ</h1>
