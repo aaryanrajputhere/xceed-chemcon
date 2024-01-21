@@ -190,6 +190,201 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className={HomeStyle.timelineContainer}>
+        <div className={HomeStyle.timeline}>
+          <h1>Timeline</h1>
+          <div className={HomeStyle.eventContainer}>
+            <p>Last date for receipt of abstract</p>
+          </div>
+          <div className={HomeStyle.eventContainer}>
+            <p>Intimation of acceptance</p>
+          </div>
+          <div className={HomeStyle.eventContainer}>
+            <p>Last date for submission of full paper</p>
+          </div>
+          <div className={HomeStyle.eventContainer}>
+            <p>Intimation of final acceptance of paper</p>
+          </div>
+        </div>
+        <div className={HomeStyle.aboutDoaba}>
+          <h1>About Doaba Regional Centre (DRC)</h1>
+          <p>
+            The Indian Institute of Chemical Engineers (IIChE) is the apex
+            professional body of Chemical Engineers in the country instituted in
+            the year 1947 and presently has more than 25,000 corporate members
+            on its roll. The activities of the Institute are spread across the
+            country through its 47 Regional Centres and 186 Student Chapters,
+            apart from the HQ located at the Jadavpur University Campus, Kolkata
+            The IIChE has been conducting the Associate Membership Examination
+            since 1960 and publishes an esteemed quarterly Journal “The Indian
+            Chemical Engineer” since 1959..
+          </p>
+        </div>
+      </div>
+      <div className={HomeStyle.about1}>
+        <div className={HomeStyle.aboutNitj}>
+          <h1>About NITJ</h1>
+          <p>
+            Dr. B. R. Ambedkar NIT Jalandhar was established in the year 1987 as
+            erstwhile Regional Engineering College and was given the status of
+            NIT Jalandhar by the Ministry of Human Resource Development,
+            Government of India, New Delhi on October 17, 2002 under the Act of
+            Parliament-2007.As an Institute of National importance, NIT
+            Jalandhar comprehends its responsibility of providing high quality
+            education in Engineering and Technology to produce competent
+            technical manpower for the country. The Institute offers UG, PG and
+            research programmes with latest research infrastructure in all
+            disciplines. Institute holds 46th NIRF ranking and within a ranking
+            band of 651-700 amongst Asian Universities.
+          </p>
+        </div>
+        <div className={HomeStyle.aboutDepartment}>
+          <h1>About the Department</h1>
+          <p>
+            The Department (FIST Sponsored) was established in 1990 and has been
+            playing a vital role in the development of Chemical Engineering
+            education and research by offering B. Tech, M. Tech and PhD
+            programmes. Its Alumni are occupying eminent positions in chemical
+            industries, research and academic institutions in India and abroad.
+            The Department has established state of the art laboratories with
+            sophisticated equipment for undergraduate courses and research work.
+          </p>
+        </div>
+      </div>
+      <div className={HomeStyle.about2}>
+        <div className={HomeStyle.sponsorship}>
+          <h1>Sponsorship Rates</h1>
+          <p>
+            The sponsors are entitled to nominate two complimentary delegates
+            along with availing of local hospitality during the congress. They
+            are also entitled to put hoardings/ Banners at the suitable
+            locations provided by the organizers.
+          </p>
+          <table>
+            <thead>
+              <div className={HomeStyle.tableHead}></div>
+              <tr>
+                <th>Category</th>
+                <th className={HomeStyle.rightColumn}>Price in INR</th>
+                <th className={HomeStyle.rightColumn}>Category</th>
+                <th className={HomeStyle.rightColumn}>Price in INR</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <th>Platinum Sponsorship </th>
+                <th className={HomeStyle.rightColumn}>3000000 </th>
+                <th className={HomeStyle.rightColumn}>Tea during break </th>
+                <th className={HomeStyle.rightColumn}>50000</th>
+              </tr>
+              <tr>
+                <th>Gold Sponsorship </th>
+                <th className={HomeStyle.rightColumn}>2000000 </th>
+                <th className={HomeStyle.rightColumn}>
+                  Plenary Lectures (each){" "}
+                </th>
+                <th className={HomeStyle.rightColumn}>100000</th>
+              </tr>
+              <tr>
+                <th>Silver Sponsorship </th>
+                <th className={HomeStyle.rightColumn}>1500000 </th>
+                <th className={HomeStyle.rightColumn}>
+                  Parallel Sessions (each){" "}
+                </th>
+                <th className={HomeStyle.rightColumn}>100000</th>
+              </tr>
+
+              <tr>
+                <th>Delegate Kit </th>
+                <th className={HomeStyle.rightColumn}>1000000 </th>
+                <th className={HomeStyle.rightColumn}>
+                  Poster Sessions (each){" "}
+                </th>
+                <th className={HomeStyle.rightColumn}>150000</th>
+              </tr>
+              <tr>
+                <th>Lunch (each day) </th>
+                <th className={HomeStyle.rightColumn}>500000 </th>
+                <th className={HomeStyle.rightColumn}>
+                  Cultural Programs (each){" "}
+                </th>
+                <th className={HomeStyle.rightColumn}>200000</th>
+              </tr>
+              <tr>
+                <th>Dinner (each day) </th>
+                <th className={HomeStyle.rightColumn}>500000</th>
+                <th className={HomeStyle.rightColumn}>
+                  Conference Proceeding{" "}
+                </th>
+                <th className={HomeStyle.rightColumn}>200000</th>
+              </tr>
+              <tr>
+                <th>High Tea (First day or last day) </th>
+                <th className={HomeStyle.rightColumn}>200000 </th>
+                <th className={HomeStyle.rightColumn}>
+                  Delegate Kit CD/Pen Drive{" "}
+                </th>
+                <th className={HomeStyle.rightColumn}>100000</th>
+              </tr>
+              <tr>
+                <th>Breakfast (each day) </th>
+                <th className={HomeStyle.rightColumn}>200000 </th>
+                <th className={HomeStyle.rightColumn}>Banner of each event </th>
+                <th className={HomeStyle.rightColumn}>25000</th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div className={HomeStyle.souvenir}>
+          <h1>Souvenir</h1>
+          <p>
+            An informative souvenir will be made available to all the delegates.
+            Contributions are solicited to support this mega event,
+            CHEMCON-2024, through advertisements. The rates are as follows:
+          </p>
+          <table>
+            <thead>
+              <div className={HomeStyle.tableHead}></div>
+              <tr>
+                <th>Location </th>
+                <th className={HomeStyle.rightColumn}>Price in INR</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <th>Multicolor Back page </th>
+                <th className={HomeStyle.rightColumn}>150000</th>
+              </tr>
+              <tr>
+                <th>Multicolor Back inside gatefold </th>
+                <th className={HomeStyle.rightColumn}>100000</th>
+              </tr>
+              <tr>
+                <th>Multicolor Front inside gatefold </th>
+                <th className={HomeStyle.rightColumn}>60000 </th>
+              </tr>
+              <tr>
+                <th>Multicolor Full page </th>
+                <th className={HomeStyle.rightColumn}>25000 </th>
+              </tr>
+              <tr>
+                <th>Multicolor Half page </th>
+                <th className={HomeStyle.rightColumn}>15000</th>
+              </tr>
+              <tr>
+                <th>Black & White Full Page </th>
+                <th className={HomeStyle.rightColumn}>15000 </th>
+              </tr>
+              <tr>
+                <th>Black & White half Page </th>
+                <th className={HomeStyle.rightColumn}>7500 </th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   );
 }

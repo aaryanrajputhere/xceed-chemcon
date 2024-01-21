@@ -269,3 +269,82 @@ h1 {
 .imgGallery h1 {
   text-align: center;
 }
+
+.timelineContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin: 20px;
+  justify-content: space-evenly;
+}
+.timeline {
+  text-align: center;
+  width: 500px;
+}
+.eventContainer {
+  position: relative;
+  background-color: aliceblue;
+  padding: 10px;
+  margin: 10px;
+  width: fit-content;
+  border-radius: 0.75rem;
+}
+.aboutDoaba {
+  width: 40%;
+}
+
+.about1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.aboutNitj {
+  margin: 50px;
+  width: 50%;
+}
+.aboutDepartment {
+  margin: 50px;
+  width: 35%;
+}
+.about2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sponsorship {
+  margin: 50px;
+  width: 50%;
+}
+.souvenir {
+  margin: 50px;
+  width: 35%;
+}
+
+table {
+  justify-content: space-between;
+}
+tr {
+  width: 200px;
+  height: 40px;
+  position: relative;
+}
+.tableHead {
+  width: 50%;
+  height: 40px;
+  --tw-bg-opacity: 1;
+  background-color: hsl(27 86% 92% / var(--tw-bg-opacity));
+  position: absolute;
+  color: black;
+}
+th {
+  text-align: left;
+  font-family: "Monsterrat", sans-serif;
+  color: black;
+  font-style: normal;
+}
+
+.rightColumn {
+  padding-left: 40px;
+}
