@@ -281,13 +281,57 @@ h1 {
   text-align: center;
   width: 500px;
 }
-.eventContainer {
+.eventContainerLeft,
+.eventContainerRight {
+  padding: 20px;
   position: relative;
   background-color: aliceblue;
   padding: 10px;
   margin: 10px;
   width: fit-content;
   border-radius: 0.75rem;
+}
+.timeline {
+  position: relative;
+}
+.vertLine {
+  position: absolute;
+  --tw-bg-opacity: 1;
+  background-color: hsl(24 86% 83% / var(--tw-bg-opacity));
+  left: 50%;
+  height: 290px;
+  width: 10px;
+  border-radius: 1rem;
+}
+.dot1,
+.dot2,
+.dot3,
+.dot4 {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 49.5%;
+  bottom: 68%;
+  border-radius: 50%;
+  --tw-bg-opacity: 1;
+  background-color: hsl(19 84% 61% / var(--tw-bg-opacity));
+}
+.dot2 {
+  bottom: 50%;
+}
+.dot3 {
+  bottom: 28%;
+}
+
+.dot4 {
+  bottom: 10%;
+}
+
+.eventContainerLeft {
+  left: -18%;
+}
+.eventContainerRight {
+  left: 55%;
 }
 .aboutDoaba {
   width: 40%;
@@ -330,13 +374,18 @@ tr {
   height: 40px;
   position: relative;
 }
-.tableHead {
-  width: 30%;
+.tableHead1,
+.tableHead2 {
+  width: 50%;
   height: 40px;
   --tw-bg-opacity: 1;
   background-color: hsl(27 86% 92% / var(--tw-bg-opacity));
   position: absolute;
   color: black;
+  border-radius: 0.5rem;
+}
+.tableHead2 {
+  width: 35%;
 }
 th {
   text-align: left;
@@ -346,51 +395,101 @@ th {
 }
 
 .rightColumn {
-  padding-left: 40px;
+  padding-left: 20px;
 }
 .ourEvents {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  height: 800px;
   justify-content: space-evenly;
-  align-items: center;
-  height: 700px;
+  padding: 100px;
+  padding-top: 0px;
 }
 .event1,
 .event2,
 .event3,
 .event4,
 .event5 {
-  margin: 20px;
-  padding: 20px;
-  margin-top: 15px;
-  background-color: orange;
   border-radius: 0.5rem;
 }
+
 .event1 {
-  width: 980px;
+  width: 35%;
+  margin: 20px;
+  padding: 20px;
+  height: 720px;
+
+  --tw-bg-opacity: 1;
+  background-color: hsl(27 86% 92% / var(--tw-bg-opacity));
+}
+
+.eventSquare {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  width: 55%;
+  height: 800px;
+  margin: 20px;
+  justify-content: space-evenly;
 }
 
 .event2,
 .event3,
 .event4,
 .event5 {
-  height: 250px;
-  width: 400px;
+  padding: 20px;
+
+  height: 40%;
+  width: 40%;
 }
 .event2 {
-  background-color: red;
+  --tw-bg-opacity: 1;
+  background-color: hsl(24 86% 83% / var(--tw-bg-opacity));
 }
 .event3 {
-  background-color: antiquewhite;
+  --tw-bg-opacity: 1;
+  background-color: hsl(23 84% 72% / var(--tw-bg-opacity));
 }
 .event4 {
-  background-color: blue;
+  --tw-bg-opacity: 1;
+  background-color: hsl(19 84% 61% / var(--tw-bg-opacity));
 }
 .event5 {
-  background-color: aqua;
+  --tw-bg-opacity: 1;
+  background-color: hsl(17 83% 54% / var(--tw-bg-opacity));
 }
 
-.eventSquare {
-  display: flex;
-  flex-wrap: wrap;
+@media (max-width: 1450px) {
+  .ourEvents {
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+  }
+  .event1 {
+    width: 70%;
+    padding-bottom: 0px;
+  }
+  .eventSquare {
+    height: fit-content;
+    width: 100%;
+  }
+  .event2,
+  .event3,
+  .event4,
+  .event5 {
+    width: 70%;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .event1,
+  .event2,
+  .event3,
+  .event4,
+  .event5 {
+    width: 95%;
+  }
 }

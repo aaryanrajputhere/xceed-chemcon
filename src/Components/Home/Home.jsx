@@ -193,17 +193,36 @@ export default function Home() {
       <div className={HomeStyle.timelineContainer}>
         <div className={HomeStyle.timeline}>
           <h1>Timeline</h1>
-          <div className={HomeStyle.eventContainer}>
-            <p>Last date for receipt of abstract</p>
+          <div className={HomeStyle.vertLine}></div>
+          <div className={HomeStyle.dot1}></div>
+          <div className={HomeStyle.dot2}></div>
+          <div className={HomeStyle.dot3}></div>
+          <div className={HomeStyle.dot4}></div>
+          <div className={HomeStyle.eventContainerLeft}>
+            <p>May 18, 2024</p>
+            <b>
+              <p>Last date for receipt of abstract</p>
+            </b>
           </div>
-          <div className={HomeStyle.eventContainer}>
-            <p>Intimation of acceptance</p>
+          <div className={HomeStyle.eventContainerRight}>
+            <p>June 22, 2024</p>
+            <b>
+              {" "}
+              <p>Intimation of acceptance</p>
+            </b>
           </div>
-          <div className={HomeStyle.eventContainer}>
-            <p>Last date for submission of full paper</p>
+          <div className={HomeStyle.eventContainerLeft}>
+            <p>July 20, 2024</p>
+            <b>
+              <p>Last date for submission of full paper</p>
+            </b>
           </div>
-          <div className={HomeStyle.eventContainer}>
-            <p>Intimation of final acceptance of paper</p>
+          <div className={HomeStyle.eventContainerRight}>
+            <p>August 31, 2024</p>
+            <b>
+              {" "}
+              <p>Intimation of final acceptance of paper</p>
+            </b>
           </div>
         </div>
         <div className={HomeStyle.aboutDoaba}>
@@ -221,6 +240,9 @@ export default function Home() {
           </p>
         </div>
       </div>
+      <center>
+        <h1>Our Events</h1>
+      </center>
       <div className={HomeStyle.ourEvents}>
         <div className={HomeStyle.event1}>
           <h3>Technical Sessions</h3>
@@ -335,7 +357,7 @@ export default function Home() {
           </p>
           <table>
             <thead>
-              <div className={HomeStyle.tableHead}></div>
+              <div className={HomeStyle.tableHead1}></div>
               <tr>
                 <th>Category</th>
                 <th className={HomeStyle.rightColumn}>Price in INR</th>
@@ -418,7 +440,7 @@ export default function Home() {
           </p>
           <table>
             <thead>
-              <div className={HomeStyle.tableHead}></div>
+              <div className={HomeStyle.tableHead2}></div>
               <tr>
                 <th>Location </th>
                 <th className={HomeStyle.rightColumn}>Price in INR</th>
